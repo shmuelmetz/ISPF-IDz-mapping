@@ -2,7 +2,7 @@
 
 Left column is the complete "Line command summary" from the z/OS ISPF
 Edit and Edit Macros manual (`SC19362170` in
-[`ISPF-LPEX-mapping.bib`](ISPF-LPEX-mapping.bib)). Right column is drawn
+[`ISPF-IDz-mapping.bib`](ISPF-IDz-mapping.bib)). Right column is drawn
 from the z Systems LPEX Editor's ISPF base profile page (`LPEXISPFProfile`
 in the same bib file), which states these prefix commands "function as
 standard ISPF equivalents with no noted differences." A blank LPEX

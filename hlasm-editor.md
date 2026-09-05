@@ -2,7 +2,7 @@
 
 IBM Developer for z/OS (IDz) has a second, distinct editor for Assembler
 besides LPEX: the Eclipse-native **HLASM Editor** (`HLASMEditor` in
-[`ISPF-LPEX-mapping.bib`](ISPF-LPEX-mapping.bib)). Unlike LPEX, it has no
+[`ISPF-IDz-mapping.bib`](ISPF-IDz-mapping.bib)). Unlike LPEX, it has no
 ISPF-profile personality at all — it's a standard Eclipse editor with
 HLASM-specific enhancements layered on top, so its interaction model
 (mouse, menus, and Eclipse's own keybindings) is fundamentally different

@@ -2,7 +2,7 @@
 
 Left column is the complete "Edit primary command summary" from the z/OS
 ISPF Edit and Edit Macros manual (`SC19362170` in
-[`ISPF-LPEX-mapping.bib`](ISPF-LPEX-mapping.bib)). Right column is drawn
+[`ISPF-IDz-mapping.bib`](ISPF-IDz-mapping.bib)). Right column is drawn
 from the z Systems LPEX Editor's ISPF-commands page (`LPEXISPFCmds` in
 the same bib file), which documents only the commands it explicitly lists —
 IBM's own text there says the ISPF profile "supports most, but not all,

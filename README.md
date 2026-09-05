@@ -1,4 +1,4 @@
-# ISPF-LPEX-mapping
+# ISPF-IDz-mapping
 
 Tables of IBM Developer for z/OS (IDz) editor equivalents to ISPF/PDF
 EDIT primary and line commands, parsed from the IBM reference manuals.
@@ -41,7 +41,7 @@ commands, its mapping table looks different from the LPEX ones — see
   with LPEX equivalents where confirmed
 - [`hlasm-editor.md`](hlasm-editor.md) — the same ISPF commands mapped to
   IDz's Eclipse-native HLASM Editor instead of LPEX
-- `ISPF-LPEX-mapping.bib` — bibliography for the reference manuals used
+- `ISPF-IDz-mapping.bib` — bibliography for the reference manuals used
 
 ## Sources
 
