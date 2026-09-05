@@ -23,9 +23,11 @@ directly from the IBM documentation.
 
 ## Contents
 
+- [`primary-commands.md`](primary-commands.md) — all 54 ISPF Edit primary
+  commands, with LPEX equivalents where the LPEX documentation confirms one
+- [`line-commands.md`](line-commands.md) — all 28 ISPF Edit line commands,
+  with LPEX equivalents where confirmed
 - `ISPF-LPEX-mapping.bib` — bibliography for the reference manuals used
-- Primary commands table (planned)
-- Line commands table (planned)
 
 ## Sources
 
@@ -36,8 +38,15 @@ Links verified 2026-09-04.
 | `IDzLPEX` | [Introduction to the z Systems LPEX Editor](https://www.ibm.com/docs/en/developer-for-zos/latest?topic=editors-introduction-z-systems-lpex-editor) |
 | `LPEXCmd` | [z Systems LPEX commands](https://www.ibm.com/docs/en/developer-for-zos/latest?topic=editor-z-systems-lpex-commands) |
 | `LPEXShortcuts` | [z Systems LPEX Editor keyboard shortcuts](https://www.ibm.com/docs/en/developer-for-zos/latest?topic=editors-z-systems-lpex-editor-keyboard-shortcuts) |
-| `SC19362170` | [z/OS 3.2 ISPF Edit and Edit Macros (PDF, SC19-3621-70)](https://www.ibm.com/docs/en/SSLTBW_3.2.0/pdf/f54em00_v3r2.pdf) |
+| `LPEXISPFCmds` | [ISPF commands supported in z Systems LPEX Editor](https://www.ibm.com/docs/en/developer-for-zos/latest?topic=commands-interactive-system-productivity-facility-lpex) |
+| `LPEXISPFProfile` | [ISPF base profile](https://www.ibm.com/docs/en/developer-for-zos/latest?topic=profiles-ispf-base-profile) |
+| `SC19362170` | [z/OS 3.2 ISPF Edit and Edit Macros (PDF, SC19-3621-70)](https://www.ibm.com/docs/en/SSLTBW_3.2.0/pdf/f54em00_v3r2.pdf) — primary and line command summaries at topics `commands-edit-primary-command-summary` and `commands-line-command-summary` |
 
 ## Status
 
-Work in progress.
+Command tables complete for the commands each source documents. Not yet
+done: LPEX's own native commands that have no ISPF counterpart at all
+(out of scope for a table keyed by ISPF command), and a decision on
+whether to chase down primary sources for the ISPF commands current LPEX
+documentation doesn't mention (may simply be unsupported, may just be
+undocumented on that one page — see the Notes column in each table).
